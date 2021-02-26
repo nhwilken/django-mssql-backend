@@ -27,6 +27,7 @@ class DatabaseFeatures(BaseDatabaseFeatures):
     supports_deferrable_unique_constraints = False
     supports_ignore_conflicts = False
     supports_index_on_text_field = False
+    supports_over_clause = True
     supports_paramstyle_pyformat = False
     supports_regex_backreferencing = True
     supports_sequence_reset = False
